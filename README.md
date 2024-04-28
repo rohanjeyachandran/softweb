@@ -28,8 +28,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
-```
-home1.html
+``
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,8 +44,7 @@ home1.html
             background-color:rgb(231, 190, 222);
             color:rgb(8, 7, 7);
             padding: 15px;
-    
-        }
+    }
         li,h1,ul{
             display:inline;
         }
@@ -69,7 +67,6 @@ home1.html
             padding:50px;
             text-align: center;
         }
-        
         .box {
             display:inline-block;
             border-style:dotted ;
@@ -79,7 +76,6 @@ home1.html
             min-height: 300px;
             font-size: 20px;
             background-color:rgb(226, 168, 174);
-        
         }
         .heading1{
             color:black;
@@ -104,9 +100,7 @@ home1.html
             text-align: center;
             position:relative;
             display:block;
-            margin-top: 72px;
-
-        }
+            margin-top: 72px;}
         table{
             margin-center: 400px;
         }
@@ -115,7 +109,7 @@ home1.html
 <body style="background-image: url('ns1.jpeg');>
     
 
-    <div class="header">
+<div class="header">
         <nav id="nav">
             <h1>
                 NS TECHIES
@@ -171,8 +165,7 @@ A symbol of our digital dreams...."<b></i></pre></div>
                         </td>
                     </tr>
                 </table>
-                
-            </form>
+                </form>
             </div>
         </div>
     <div class="bottomdiv">
@@ -198,9 +191,7 @@ product.html
         #nav{
             background-color:rgb(231, 190, 222);
             color:white;
-            padding: 15px;
-    
-        }
+            padding: 15px;}
         li,.heading1,ul{
             display:inline;
         }
@@ -230,9 +221,7 @@ product.html
             width: 414px;
         }
         .product{
-
-            text-align: center;
-        }
+         text-align: center;}
         .box{
             background-color:rgb(231, 190, 222);
             cursor:pointer;
@@ -263,8 +252,7 @@ product.html
     </style>
 </head>
 <body style="background-image: url('ns1.jpeg'); background-size: cover;">
-
-        <nav id="nav">
+<nav id="nav">
             <h1 class="heading1">NS TECHIES</h1>
                 <ul>
                     <li class="li1"> 
@@ -295,19 +283,16 @@ product.html
                 <h1>IPHONE 11 pro max</h1>
                 <p>The iPhone 11 Pro Max is a powerhouse, featuring a stunning Super Retina XDR display, triple-camera system, and unparalleled performance.</p>
             </div>
-           
             <div class="box">
                 <img src="iphone 12 pro max.jpeg">
                 <h1>IPHONE 12 pro max</h1>
                 <p>The iPhone 12 Pro Max is the epitome of innovation, boasting a beautiful design, 5G capability, an advanced camera system, and the powerful A14 Bionic chip..</p>
             </div>
-            
             <div class="box">
                 <img src="iphone 13 pro max.jpeg">
                 <h1>IPHONE 13 pro max</h1>
                 <p>The iPhone 13 Pro Max takes excellence to new heights with its ProMotion display, enhanced camera capabilities, longer battery life, and lightning-fast performance powered by the A15 Bionic chip.</p>
             </div>
-            
             <div class="box">
                 <img src="iphon 14 max pro.jpeg">
                 <h1>IPHONE 14 pro max</h1>
@@ -326,9 +311,8 @@ product.html
 </body>
 </html>
 ```
+```
 person.html
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -345,7 +329,6 @@ person.html
             background-color:rgb(231, 190, 222);
             color:#000000;
             padding: 15px;
-    
         }
         li,.heading1,ul{
             display:inline;
@@ -384,16 +367,13 @@ text-decoration: none;
             text-align: center;
             position:relative;
             display:block;
-            margin-top: 0.7px;
-
-        }
+            margin-top: 0.7px;}
         img{
             border-radius: 50%;
             width: 200px;
             display: inline;
             padding:15px;
-            
-        }
+            }
         .person{
             margin: 150px;
             text-align: center;
@@ -431,13 +411,10 @@ text-decoration: none;
                 <td>
                     <img src="steve.jpeg" width="100" height="160">
                 </td>
-		
-
-                <td>
+	            <td>
                     <img src="co founder ip.jpeg" width="100" height="160">
                 </td>
-		
-                <td>
+		        <td>
                    <img src="1k.jpeg" width="100" height="160">
                 </td>
                 <td>
@@ -468,8 +445,7 @@ text-decoration: none;
                     <b>Mahi</b>
                     <p>Marketing Director</p>
                 </td>
-              
-            </tr>
+              </tr>
         </table>
     </div>
     <div class="bottomdiv">
@@ -496,8 +472,7 @@ contactus.html
             background-color:rgb(231, 190, 222);
             color:white;
             padding: 15px;
-    
-        }
+            }
         li,.heading1,ul{
             display:inline;
         }
@@ -527,9 +502,8 @@ contactus.html
             width: 414px;
         }
         .product{
-
             text-align: center;
-        }
+            }
         .box{
             background-color:teal;
             cursor:pointer;
@@ -567,9 +541,7 @@ contactus.html
             background-color:rgb(95, 92, 92);
             border-radius: 5px;
             border-style:dotted;
-            border-color: rgb(41, 71, 190);
-
-        }
+            border-color: rgb(41, 71, 190);}
         .queries{
             margin-left:600px;
         }
@@ -586,9 +558,7 @@ contactus.html
 </head>
 <body style="background-image: url('ns1.jpeg');>
 
-    
-    
-    <div class="header">
+<div class="header">
         <nav id="nav">
             <h1 class="heading1">NS TECHIES</h1>
                 <ul>
@@ -685,14 +655,15 @@ contactus.html
     </div>
 </body>
 </html>
-
 ```
 
+## OUTPUT
+![alt text](<home web.png>)
 
-## OUTPUT:
-![alt text](home web.png)
-![alt text](product web.png)
-![alt text](Screenshot 2024-04-28 205018.png)
-![alt text](contact web.png)
+![alt text](<product web.png>)
+![alt text](<Screenshot 2024-04-28 205018.png>)
+![alt text](<contact web.png>)
+
 ## RESULT:
+
 The program for designing software company website using HTML and CSS is completed successfully.
