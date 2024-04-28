@@ -28,7 +28,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
-``
+```
 ## home1.html
 
 <!DOCTYPE html>
@@ -659,7 +659,7 @@ text-decoration: none;
     </div>
 </body>
 </html>
-``
+```
 
 ## OUTPUT
 ![alt text](<home web.png>)
