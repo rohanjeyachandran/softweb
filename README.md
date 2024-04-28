@@ -28,7 +28,9 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
-``
+```
+## home1.html
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -173,9 +175,9 @@ A symbol of our digital dreams...."<b></i></pre></div>
     </div>
 </body>
 <html>
-```
-```
-product.html
+
+## product.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -310,9 +312,9 @@ product.html
     </div>
 </body>
 </html>
-```
-```
-person.html
+
+
+## person.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -453,9 +455,11 @@ text-decoration: none;
     </div>
 </body>
 </html>
-```
-```
-contactus.html
+
+
+## contactus.html
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
