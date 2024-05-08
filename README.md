@@ -46,7 +46,8 @@ Publish the website in the given URL.
             background-color:rgb(231, 190, 222);
             color:rgb(8, 7, 7);
             padding: 15px;
-    }
+    
+        }
         li,h1,ul{
             display:inline;
         }
@@ -69,6 +70,7 @@ Publish the website in the given URL.
             padding:50px;
             text-align: center;
         }
+        
         .box {
             display:inline-block;
             border-style:dotted ;
@@ -78,6 +80,7 @@ Publish the website in the given URL.
             min-height: 300px;
             font-size: 20px;
             background-color:rgb(226, 168, 174);
+        
         }
         .heading1{
             color:black;
@@ -102,7 +105,9 @@ Publish the website in the given URL.
             text-align: center;
             position:relative;
             display:block;
-            margin-top: 72px;}
+            margin-top: 72px;
+
+        }
         table{
             margin-center: 400px;
         }
@@ -111,7 +116,7 @@ Publish the website in the given URL.
 <body style="background-image: url('ns1.jpeg');>
     
 
-<div class="header">
+    <div class="header">
         <nav id="nav">
             <h1>
                 NS TECHIES
@@ -121,7 +126,7 @@ Publish the website in the given URL.
                         <a href="home1.html" target="_blank">Home  |</a>
                     </li>
                     <li class="li2"> 
-                        <a href="Products.html" target="_blank">Products  |</a>
+                        <a href="courses.html" target="_blank">courses  |</a>
                     </li>
                     <li class="li4"> 
                         <a href="person.html" target="_blank">Employees  |</a>
@@ -136,8 +141,9 @@ Publish the website in the given URL.
     <input placeholder="search">
     </div>
         <div><pre class="heading2"><i><b>
-"In pockets snug, its presence beams,
-A symbol of our digital dreams...."<b></i></pre></div>
+"A Color stands abroadOn Solitary Fields
+That Science cannot overtake
+But Human Nature feels ….."<b></i></pre></div>
         <div class="edge">
             <div class="box">
             <h1 class="heading1">LOGIN HERE</h1>
@@ -167,7 +173,8 @@ A symbol of our digital dreams...."<b></i></pre></div>
                         </td>
                     </tr>
                 </table>
-                </form>
+                
+            </form>
             </div>
         </div>
     <div class="bottomdiv">
@@ -176,7 +183,7 @@ A symbol of our digital dreams...."<b></i></pre></div>
 </body>
 <html>
 
-## product.html
+## course.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -193,7 +200,9 @@ A symbol of our digital dreams...."<b></i></pre></div>
         #nav{
             background-color:rgb(231, 190, 222);
             color:white;
-            padding: 15px;}
+            padding: 15px;
+    
+        }
         li,.heading1,ul{
             display:inline;
         }
@@ -223,7 +232,9 @@ A symbol of our digital dreams...."<b></i></pre></div>
             width: 414px;
         }
         .product{
-         text-align: center;}
+
+            text-align: center;
+        }
         .box{
             background-color:rgb(231, 190, 222);
             cursor:pointer;
@@ -254,14 +265,15 @@ A symbol of our digital dreams...."<b></i></pre></div>
     </style>
 </head>
 <body style="background-image: url('ns1.jpeg'); background-size: cover;">
-<nav id="nav">
+
+        <nav id="nav">
             <h1 class="heading1">NS TECHIES</h1>
                 <ul>
                     <li class="li1"> 
                         <a href="home1.html" target="_blank">Home  |</a>
                     </li>
                     <li class="li2"> 
-                        <a href="Products.html" target="_blank">Products  |</a>
+                        <a href="courses.html" target="_blank">courses  |</a>
                     </li>
                     <li class="li4"> 
                         <a href="person.html" target="_blank">Employees  |</a>
@@ -272,39 +284,34 @@ A symbol of our digital dreams...."<b></i></pre></div>
                 </ul>
             </nav>
         </div>
-        <h1 class="heading2">PRODUCTS</h1>
+        <h1 class="heading2">COURSES</h1>
         <br>
         <div class="product">
             <div class="box">
-                <img src="iphone 11 pro.jpeg" height="178" width="125">
-                <h1>IPHONE 11 pro</h1>
-                <p>The iPhone 11 Pro combines sleek design with powerful performance, featuring a stunning Super Retina XDR display, triple-camera system, and the lightning-fast A13 Bionic chip.</p>
+                <img src="Html.png" height="178" width="125">
+                <h1>HTML</h1>
+                <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content..</p>
             </div>
             <div class="box">
-                <img src="iphone 11 pro max.jpeg">
-                <h1>IPHONE 11 pro max</h1>
-                <p>The iPhone 11 Pro Max is a powerhouse, featuring a stunning Super Retina XDR display, triple-camera system, and unparalleled performance.</p>
+                <img src="CSs.png">
+                <h1>CSS</h1>
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML ...</p>
             </div>
+           
             <div class="box">
-                <img src="iphone 12 pro max.jpeg">
-                <h1>IPHONE 12 pro max</h1>
-                <p>The iPhone 12 Pro Max is the epitome of innovation, boasting a beautiful design, 5G capability, an advanced camera system, and the powerful A14 Bionic chip..</p>
+                <img src="JS.png">
+                <h1>JavaScript</h1>
+                <p>JavaScript (JS) is a cross-platform, object-oriented programming language used by developers to make web pages interactive. It allows developers to create dynamically updating content, use animations, pop-up menus, clickable buttons, control multimedia, etc.</p>
             </div>
+            
+            
+            
             <div class="box">
-                <img src="iphone 13 pro max.jpeg">
-                <h1>IPHONE 13 pro max</h1>
-                <p>The iPhone 13 Pro Max takes excellence to new heights with its ProMotion display, enhanced camera capabilities, longer battery life, and lightning-fast performance powered by the A15 Bionic chip.</p>
+                <img src="PHP.png">
+                <h1>PHP</h1>
+                <p>. Personal Home Page was how it was formerly referred to. It is a programming language frequently used to create web pages or online apps. The server-side programming language used to create dynamic websites, static websites, and online apps is encoded with HTML..</p>
             </div>
-            <div class="box">
-                <img src="iphon 14 max pro.jpeg">
-                <h1>IPHONE 14 pro max</h1>
-                <p>The iPhone 14 Pro Max sets new standards with its cutting-edge technology, including a refined design, improved camera system, faster processing with the A16 Bionic chip, and a host of innovative features that elevate your smartphone experience.</p>
-            </div>
-            <div class="box">
-                <img src="iphone 15 pro max.jpeg">
-                <h1>IPHONE 15 pro max</h1>
-                <p>The iPhone 15 Pro Max is the latest flagship from Apple, featuring cutting-edge technology, advanced camera capabilities, blazing-fast performance, and a stunning design.</p>
-            </div>
+            
         </div>
     </div>
     <div class="bottomdiv">
@@ -312,9 +319,9 @@ A symbol of our digital dreams...."<b></i></pre></div>
     </div>
 </body>
 </html>
-
-
 ## person.html
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -331,6 +338,7 @@ A symbol of our digital dreams...."<b></i></pre></div>
             background-color:rgb(231, 190, 222);
             color:#000000;
             padding: 15px;
+    
         }
         li,.heading1,ul{
             display:inline;
@@ -369,13 +377,16 @@ text-decoration: none;
             text-align: center;
             position:relative;
             display:block;
-            margin-top: 0.7px;}
+            margin-top: 0.7px;
+
+        }
         img{
             border-radius: 50%;
             width: 200px;
             display: inline;
             padding:15px;
-            }
+            
+        }
         .person{
             margin: 150px;
             text-align: center;
@@ -396,7 +407,7 @@ text-decoration: none;
                         <a href="home1.html" target="_blank">Home  |</a>
                     </li>
                     <li class="li2"> 
-                        <a href="products.html" target="_blank">Products  |</a>
+                        <a href="courses.html" target="_blank">courses  |</a>
                     </li>
                     <li class="li4"> 
                         <a href="person.html" target="_blank">Employee |</a>
@@ -413,10 +424,13 @@ text-decoration: none;
                 <td>
                     <img src="steve.jpeg" width="100" height="160">
                 </td>
-	            <td>
+		
+
+                <td>
                     <img src="co founder ip.jpeg" width="100" height="160">
                 </td>
-		        <td>
+		
+                <td>
                    <img src="1k.jpeg" width="100" height="160">
                 </td>
                 <td>
@@ -447,7 +461,8 @@ text-decoration: none;
                     <b>Mahi</b>
                     <p>Marketing Director</p>
                 </td>
-              </tr>
+              
+            </tr>
         </table>
     </div>
     <div class="bottomdiv">
@@ -455,10 +470,7 @@ text-decoration: none;
     </div>
 </body>
 </html>
-
-
 ## contactus.html
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -476,7 +488,8 @@ text-decoration: none;
             background-color:rgb(231, 190, 222);
             color:white;
             padding: 15px;
-            }
+    
+        }
         li,.heading1,ul{
             display:inline;
         }
@@ -506,8 +519,9 @@ text-decoration: none;
             width: 414px;
         }
         .product{
+
             text-align: center;
-            }
+        }
         .box{
             background-color:teal;
             cursor:pointer;
@@ -545,7 +559,9 @@ text-decoration: none;
             background-color:rgb(95, 92, 92);
             border-radius: 5px;
             border-style:dotted;
-            border-color: rgb(41, 71, 190);}
+            border-color: rgb(41, 71, 190);
+
+        }
         .queries{
             margin-left:600px;
         }
@@ -562,7 +578,9 @@ text-decoration: none;
 </head>
 <body style="background-image: url('ns1.jpeg');>
 
-<div class="header">
+    
+    
+    <div class="header">
         <nav id="nav">
             <h1 class="heading1">NS TECHIES</h1>
                 <ul>
@@ -570,7 +588,7 @@ text-decoration: none;
                         <a href="home1.html" target="_blank">Home  |</a>
                     </li>
                     <li class="li2"> 
-                        <a href="Products.html" target="_blank">Products  |</a>
+                        <a href="courses.html" target="_blank">courses  |</a>
                     </li>
                     <li class="li4"> 
                         <a href="person.html" target="_blank">Employees  |</a>
@@ -659,15 +677,14 @@ text-decoration: none;
     </div>
 </body>
 </html>
+
 ```
 
 ## OUTPUT
-![alt text](<home web.png>)
-
-![alt text](<product web.png>)
-![alt text](<Screenshot 2024-04-28 205018.png>)
-![alt text](<contact web.png>)
-
+![alt text](chome.png)
+![alt text](ccourse.png)
+![alt text](cemploy.png)
+![alt text](ccontact.png)
 ## RESULT:
 
 The program for designing software company website using HTML and CSS is completed successfully.
