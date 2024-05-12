@@ -1,5 +1,5 @@
 # Ex.07 Software Product Company Website
-## Date:28-4-24
+## Date:12-05-24
 
 ## AIM:
 To develop a static company website to display the softwares and services provided by the company.
@@ -29,7 +29,7 @@ Publish the website in the given URL.
 
 ## PROGRAM:
 ```
-## home1.html
+home1.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -113,7 +113,7 @@ Publish the website in the given URL.
         }
     </style>
 </head>
-<body style="background-image: url('ns1.jpeg');>
+<body style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/008/311/935/small/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg');>
     
 
     <div class="header">
@@ -178,12 +178,16 @@ But Human Nature feels ….."<b></i></pre></div>
             </div>
         </div>
     <div class="bottomdiv">
-        <p>Designed and Developed by V.Natchathira Rajan (212221040112)</p>
+        <p>Designed and Developed by ROHAN J(212223040171)</p>
     </div>
 </body>
 <html>
 
-## course.html
+
+
+```
+```
+course.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -264,7 +268,7 @@ But Human Nature feels ….."<b></i></pre></div>
         }
     </style>
 </head>
-<body style="background-image: url('ns1.jpeg'); background-size: cover;">
+<body style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/008/311/935/small/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg'); background-size: cover;">
 
         <nav id="nav">
             <h1 class="heading1">NS TECHIES</h1>
@@ -288,18 +292,18 @@ But Human Nature feels ….."<b></i></pre></div>
         <br>
         <div class="product">
             <div class="box">
-                <img src="Html.png" height="178" width="125">
+                <img src="data:image/png;base64,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" height="178" width="125">
                 <h1>HTML</h1>
                 <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content..</p>
             </div>
             <div class="box">
-                <img src="CSs.png">
+                <img src="https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png"height="178" width="125" >
                 <h1>CSS</h1>
                 <p>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML ...</p>
             </div>
            
             <div class="box">
-                <img src="JS.png">
+                <img src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png"height="178" width="125">
                 <h1>JavaScript</h1>
                 <p>JavaScript (JS) is a cross-platform, object-oriented programming language used by developers to make web pages interactive. It allows developers to create dynamically updating content, use animations, pop-up menus, clickable buttons, control multimedia, etc.</p>
             </div>
@@ -307,7 +311,7 @@ But Human Nature feels ….."<b></i></pre></div>
             
             
             <div class="box">
-                <img src="PHP.png">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png"height="178" width="125" >
                 <h1>PHP</h1>
                 <p>. Personal Home Page was how it was formerly referred to. It is a programming language frequently used to create web pages or online apps. The server-side programming language used to create dynamic websites, static websites, and online apps is encoded with HTML..</p>
             </div>
@@ -315,11 +319,12 @@ But Human Nature feels ….."<b></i></pre></div>
         </div>
     </div>
     <div class="bottomdiv">
-        <p>Designed and Developed by V.Natchathira Rajan (212221040112)</p>
+        <p>Designed and developed by ROHAN J(212223040171)</p>
     </div>
 </body>
-</html>
-## person.html
+```
+```
+person.html
 
 
 <!DOCTYPE html>
@@ -422,22 +427,19 @@ text-decoration: none;
         <table class="person">
             <tr>
                 <td>
-                    <img src="steve.jpeg" width="100" height="160">
+                    <img src="https://cdn.vox-cdn.com/thumbor/yIoKynT0Jl-zE7yWwzmW2fy04xc=/0x0:706x644/1400x1400/filters:focal(353x322:354x323)/cdn.vox-cdn.com/uploads/chorus_asset/file/13874040/stevejobs.1419962539.png" width="100" height="160">
                 </td>
 		
 
                 <td>
-                    <img src="co founder ip.jpeg" width="100" height="160">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Steve_Wozniak_by_Gage_Skidmore_3_%28cropped%29.jpg" width="100" height="160">
                 </td>
 		
                 <td>
-                   <img src="1k.jpeg" width="100" height="160">
+                   <img src="https://www.hindustantimes.com/static-content/1y/cricket-logos/players/virat-kohli.png" width="100" height="160">
                 </td>
                 <td>
-                    <img src="2d.jpeg" width="100" height="160" >
-                </td>
-                <td>
-                    <img src="3d.jpeg" width="100" height="160">
+                    <img src="https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg" width="100" height="160" >
                 </td>
             </tr>
             <tr>
@@ -457,20 +459,17 @@ text-decoration: none;
                     <b>Dhoni</b>
                     <p>Asst.Director</p>
                 </td>
-                <td>
-                    <b>Mahi</b>
-                    <p>Marketing Director</p>
-                </td>
-              
             </tr>
         </table>
     </div>
     <div class="bottomdiv">
-        <p>Designed and Developed by V.Natchathira Rajan (212221040112)</p>
+        <p>Designed and Developed by ROHAN J (212223040171)</p>
     </div>
 </body>
 </html>
-## contactus.html
+```
+```
+ contactus.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -576,7 +575,7 @@ text-decoration: none;
         }
     </style>
 </head>
-<body style="background-image: url('ns1.jpeg');>
+<body style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/008/311/935/small/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg');>
 
     
     
@@ -631,7 +630,7 @@ text-decoration: none;
                         PHONE :
                     </td>
                     <td>
-                        7397083535
+                        6380179744
                     </td>
                 </tr>
             </table>
@@ -672,19 +671,26 @@ text-decoration: none;
             </table>
         </div>
         <div class="bottomdiv">
-            <p>Designed and Developed by V.Natchathira Rajan (212221040112)</p>
+            <p>Designed and Developed by ROHAN J (212223040171)</p>
         </div>
     </div>
 </body>
 </html>
-
 ```
 
 ## OUTPUT
-![alt text](chome.png)
-![alt text](ccourse.png)
-![alt text](cemploy.png)
-![alt text](ccontact.png)
+![WhatsApp Image 2024-05-12 at 16 36 13_8d4f6109](https://github.com/rohanjeyachandran/softweb/assets/169586172/75b38f3f-c00b-4da1-820d-3084a3c6bea5)
+
+![WhatsApp Image 2024-05-12 at 16 57 03_e4377cdd](https://github.com/rohanjeyachandran/softweb/assets/169586172/be8b0aa1-b309-4caf-97c9-ee044bbf80f3)
+
+![WhatsApp Image 2024-05-12 at 17 05 01_179b6288](https://github.com/rohanjeyachandran/softweb/assets/169586172/017580fd-a878-4230-85c8-ebc88743dfd2)
+
+![WhatsApp Image 2024-05-12 at 17 08 58_32a7cd4a](https://github.com/rohanjeyachandran/softweb/assets/169586172/7ccd1ab9-e6f4-4dfe-9e35-a8fbea65a817)
+
+
+
+
+
 ## RESULT:
 
 The program for designing software company website using HTML and CSS is completed successfully.
